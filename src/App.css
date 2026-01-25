@@ -1,0 +1,24 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.contayner{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.loader{
+  background-color: rgb(60, 60, 60);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* tran */
+}
+
