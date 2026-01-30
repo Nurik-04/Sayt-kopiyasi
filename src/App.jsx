@@ -19,6 +19,7 @@
 import React, { useEffect, useState } from "react";
 import { OrbitProgress } from "react-loading-indicators";
 import Header from "./Components/Header/header";
+import Hero from "./Components/Hero/hero";
 import "./App.css"
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
   return (
     <div>
       <Header/>
+      <Hero/>
     </div>
   );
 }
