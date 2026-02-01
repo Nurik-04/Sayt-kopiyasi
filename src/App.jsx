@@ -1,26 +1,11 @@
-// import React from 'react'
-// import { OrbitProgress } from 'react-loading-indicators'
-
-// function App() {
-  
-//   return (
-//     <div>
-//       <OrbitProgress 
-//       variant="dotted" 
-//       dense color="#e20889" 
-//       size="medium" 
-//       text="😅" 
-//      />
-//     </div>
-//   )
-// }
-// export default App
-
 import React, { useEffect, useState } from "react";
 import { OrbitProgress } from "react-loading-indicators";
 import Header from "./Components/Header/header";
 import Hero from "./Components/Hero/hero";
+import Kichkina from "./Components/KIchkina/Kichkina";
+import Main from "./Components/Main/Main";
 import "./App.css"
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -42,7 +27,7 @@ function App() {
           dense
           color="red"
           size="medium"
-          text="-_-"
+          text="CLONE"
         />
       </div>
     );
@@ -52,6 +37,8 @@ function App() {
     <div>
       <Header/>
       <Hero/>
+      <Kichkina/>
+      <Main/>
     </div>
   );
 }

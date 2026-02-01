@@ -1,0 +1,98 @@
+.premium {
+  background: #ff7a18;
+  padding: 60px 40px 80px;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.slider-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  padding: 0 15px;
+}
+
+.card {
+  position: relative;
+  height: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.2)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.overlay button {
+  background: #ff6a00;
+  border: none;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.overlay button:hover {
+  background: #ff8c32;
+}
+
+/* arrows */
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 36px;
+  color: #00aaff;
+}
+
+/* dots */
+.slick-dots li button:before {
+  color: #fff;
+  font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #00aaff;
+}

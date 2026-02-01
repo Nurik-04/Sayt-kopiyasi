@@ -10,9 +10,9 @@ import { FaYoutube } from "react-icons/fa";
 
 const header = () => {
   return (
-    <header className='header fixed top-0 right-0 left-0 z-250 bg-orange-400'>
-        <div className="contayner">
-            <nav className='header__nav flex justify-between items-center px-10 w-full h-20 backdrop-blur-lg '>
+    <header className='header fixed top-0 right-0 left-0 z-250 bg-orange-400 '>
+        <div className="contayner  ">
+            <nav className='header__nav flex justify-between items-center px-10 w-full h-20 '>
                 <img src={n1} alt="" className='header__img w-20 h-20'/>
                 <ul className='header__list flex gap-7 text-white text-lg'>
                     <li className='header__item'>
@@ -37,9 +37,9 @@ const header = () => {
                         <a className='text-xl' href="https://www.youtube.com/"><FaYoutube /></a>
                     </div>
                     <select name="" id=" " className='bg-gray-400 rounded-md text-center'>
-                        <option value="0">Uzb</option>
-                        <option value="1">Рус</option>
-                        <option value="2">Eng</option>
+                        <option className='rounded-md border-none' value="0">Uzb</option>
+                        <option className='rounded-md border-none' value="1">Рус</option>
+                        <option className='rounded-md border-none' value="2">Eng</option>
                     </select>
                     <button >🌑</button>
                 </div>

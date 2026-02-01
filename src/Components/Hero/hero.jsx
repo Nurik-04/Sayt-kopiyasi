@@ -60,8 +60,10 @@ const Hero = () => {
               </div>
             </div>
           </SwiperSlide>
+          
         ))}
       </Swiper>
+      
     </div>
   );
 };

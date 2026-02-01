@@ -1,0 +1,21 @@
+.kichkina{
+    height: 300px;
+    align-content: center;
+    margin-left: 150px;
+}
+/* .kichkina__list{} */
+.kichkina__item{
+    padding: 25px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    box-shadow: 7px 11px 10px 2px rgba(149, 161, 170, 0.17);
+}
+.kichkina__title{
+    font-weight: 900;
+    margin-bottom: 25px;
+    font-size: 19px;
+}
+.kichkina__text{
+    font-weight: 500;
+    color: gray;
+}
