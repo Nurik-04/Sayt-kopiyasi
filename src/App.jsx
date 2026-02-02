@@ -5,7 +5,7 @@ import Hero from "./Components/Hero/hero";
 import Kichkina from "./Components/KIchkina/Kichkina";
 import Main from "./Components/Main/Main";
 import Davlatlar from "./Components/Davlatlar/Davlatlar";
-
+import KompaniyaH from "./Components/KompaniyaH/KompaniyaH";
 import "./App.css"
 
 
@@ -41,6 +41,7 @@ function App() {
       <Kichkina/>
       <Main/>
       <Davlatlar/>
+      <KompaniyaH/>
     </div>
   );
 }

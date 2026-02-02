@@ -2,18 +2,14 @@ import { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import "./Main.css";
 
 import japan from "../Hero/images/yapon.jpg";
 import dubai from "../Hero/images/dubai.jpg";
 import china from "../Hero/images/xitoy.jpg";
 
-
 const Main = () => {
     const sliderRef = useRef(null);
-    
-
     const settings = {
         dots: true,
         infinite: true,
