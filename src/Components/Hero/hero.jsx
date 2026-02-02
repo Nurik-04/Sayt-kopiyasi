@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 
-// Rasmlar manzili to'g'riligini yana bir bor tekshiring (Hero/images/...)
 import yapon from   "./images/yapon.jpg"; 
 import dubai from   "./images/dubai.jpg";
 import xitoy from   "./images/xitoy.jpg";
@@ -41,11 +40,9 @@ const Hero = () => {
             <div
               className="h-screen bg-cover bg-center relative flex items-center justify-center"
               style={{ 
-                // Bu joyda xatolik bo'lishi mumkin edi, url() ichiga stringni aniq beramiz
                 backgroundImage: `url(${slide.image})` 
               }}
             >
-              {/* Qorong'ulash (Overlay) */}
               <div className="absolute inset-0 bg-black/40"></div>
 
               <div className="relative z-10 text-center px-4">

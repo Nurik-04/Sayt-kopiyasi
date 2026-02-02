@@ -10,9 +10,9 @@ import dubai from "../Hero/images/dubai.jpg";
 import china from "../Hero/images/xitoy.jpg";
 
 
-
 const Main = () => {
     const sliderRef = useRef(null);
+    
 
     const settings = {
         dots: true,
@@ -34,8 +34,8 @@ const Main = () => {
     return (
         <section className="premium">
             <div className="contayner">
-                <h1 className="title">Bizning Premium Turlarimizni Kashf Etish</h1>
                 <div className="slider-wrap">
+                    <h1 className="title">Bizning Premium Turlarimizni Kashf Etish</h1>
                     <Slider ref={sliderRef} {...settings}>
                         {/* CARD 1 */}
                         <div className="card">
@@ -49,7 +49,6 @@ const Main = () => {
                                 <button>Biz bilan bog‘laning</button>
                             </div>
                         </div>
-
                         {/* CARD 2 */}
                         <div className="card">
                             <img src={dubai} alt="Dubai" />
@@ -62,7 +61,6 @@ const Main = () => {
                                 <button>Biz bilan bog‘laning</button>
                             </div>
                         </div>
-
                         {/* CARD 3 */}
                         <div className="card">
                             <img src={china} alt="China" />
@@ -75,7 +73,7 @@ const Main = () => {
                                 <button>tour-contact</button>
                             </div>
                         </div>
-                        {/* CARD 1 */}
+                        {/* CARD 4 */}
                         <div className="card">
                             <img src={japan} alt="Japan" />
                             <div className="overlay">
@@ -87,8 +85,7 @@ const Main = () => {
                                 <button>Biz bilan bog‘laning</button>
                             </div>
                         </div>
-
-                        {/* CARD 2 */}
+                        {/* CARD 5 */}
                         <div className="card">
                             <img src={dubai} alt="Dubai" />
                             <div className="overlay">
@@ -100,8 +97,7 @@ const Main = () => {
                                 <button>Biz bilan bog‘laning</button>
                             </div>
                         </div>
-
-                        {/* CARD 3 */}
+                        {/* CARD 6 */}
                         <div className="card">
                             <img src={china} alt="China" />
                             <div className="overlay">

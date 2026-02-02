@@ -4,6 +4,8 @@ import Header from "./Components/Header/header";
 import Hero from "./Components/Hero/hero";
 import Kichkina from "./Components/KIchkina/Kichkina";
 import Main from "./Components/Main/Main";
+import Davlatlar from "./Components/Davlatlar/Davlatlar";
+
 import "./App.css"
 
 
@@ -11,7 +13,6 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // 2 soniya loader ko‘rinadi
     const timer = setTimeout(() => {
       setLoading(false);
     }, 2500);
@@ -39,6 +40,7 @@ function App() {
       <Hero/>
       <Kichkina/>
       <Main/>
+      <Davlatlar/>
     </div>
   );
 }

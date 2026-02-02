@@ -1,6 +1,7 @@
 .premium {
+  /* padding: 60px 40px 80px; */
   background: #ff7a18;
-  padding: 60px 40px 80px;
+  height: 550px;
 }
 
 .title {
@@ -96,3 +97,11 @@
 .slick-dots li.slick-active button:before {
   color: #00aaff;
 }
+/* -------------------------------------------------------- */
+
+
+
+
+
+
+
