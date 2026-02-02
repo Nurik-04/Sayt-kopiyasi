@@ -1,13 +1,14 @@
-import React from 'react'
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import japan from "../Hero/images/yapon.jpg";
 import dubai from "../Hero/images/dubai.jpg";
-// import china from "../Hero/images/xitoy.jpg";
 import orol from "../Hero/images/orol.jpg";
 import tailand from "../Hero/images/tailand.jpg";
 import turkiya from "../Hero/images/turkiya.jpg";
 import maldiva from "../Main/images/maldiva.jpg";
 import vietnam from "../Main/images/vetnam.jpg";
-import "./Davlatlar.css"
+
 
 const Davlatlar = () => {
     const data = [
@@ -47,44 +48,44 @@ const Davlatlar = () => {
             img: turkiya,
         },
     ];
-  return (
-    <div>
-      <div className="yaqinroq py-16 bg-white w-full">
-                    <div className="max-w-7xl mx-auto px-4 w-full">
-                        <h2 className="text-2xl font-bold text-center mb-10">
-                            Davlatlarni o‘rganing
-                        </h2>
-                        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                            {data.map((item, index) => (
-                                <div
-                                    key={index}
-                                    className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition"
-                                >
-                                    {/* Image */}
-                                    <img
-                                        src={item.img}
-                                        alt={item.title}
-                                        className="h-48 w-full object-cover"
-                                    />
-                                    {/* Content */}
-                                    <div className="bg-gradient-to-r from-orange-400 to-pink-500 p-5 text-white">
-                                        <h3 className="font-semibold text-lg mb-2">
-                                            {item.title}
-                                        </h3>
-                                        <p className="text-sm mb-4">
-                                            {item.desc}
-                                        </p>
-                                        <button className="bg-white text-orange-500 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100">
-                                            Batafsil ma’lumot
-                                        </button>
-                                    </div>
+    return (
+        <div>
+            <div className="yaqinroq py-16 bg-white w-full">
+                <div className="max-w-7xl mx-auto px-4 w-full">
+                    <h2 className="text-2xl font-bold text-center mb-10">
+                        Davlatlarni o‘rganing
+                    </h2>
+                    <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                        {data.map((item, index) => (
+                            <div
+                                key={index}
+                                className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition"
+                            >
+                                {/* Image */}
+                                <img
+                                    src={item.img}
+                                    alt={item.title}
+                                    className="h-48 w-full object-cover"
+                                />
+                                {/* Content */}
+                                <div className="bg-gradient-to-r from-orange-400 to-pink-500 p-5 text-white">
+                                    <h3 className="font-semibold text-lg mb-2">
+                                        {item.title}
+                                    </h3>
+                                    <p className="text-sm mb-4">
+                                        {item.desc}
+                                    </p>
+                                    <button className="bg-white text-orange-500 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100">
+                                        Batafsil ma’lumot
+                                    </button>
                                 </div>
-                            ))}
-                        </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
-    </div>
-  )
+            </div>
+        </div>
+    )
 }
 
 export default Davlatlar
