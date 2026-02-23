@@ -1,5 +1,6 @@
 import React from 'react'
-import n1 from './images/NURIK_1.png'
+// import n1 from './images/NURIK_1.png'
+import n2 from './images/NURIK_2.png'
 // import "./header.css"
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -13,7 +14,7 @@ const header = () => {
     <header className='header fixed top-0 right-0 left-0 z-250 bg-orange-400 '>
         <div className="contayner  ">
             <nav className='header__nav flex justify-between items-center px-10 w-full h-20 '>
-                <img src={n1} alt="" className='header__img w-20 h-20'/>
+                <img src={n2} alt="" className='header__img w-20 h-20'/>
                 <ul className='header__list flex gap-7 text-white text-lg'>
                     <li className='header__item'>
                         <a className='' href="">Ekskursiyalar</a>

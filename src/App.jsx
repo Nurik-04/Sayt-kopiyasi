@@ -6,12 +6,15 @@ import Kichkina from "./Components/KIchkina/Kichkina";
 import Main from "./Components/Main/Main";
 import Davlatlar from "./Components/Davlatlar/Davlatlar";
 import KompaniyaH from "./Components/KompaniyaH/KompaniyaH";
+import Roixatdan from "./Components/Roixatdan/Roixatdan";
+import Footer from "./Components/Footer/Footer";
 import "./App.css"
 
 
 function App() {
   const [loading, setLoading] = useState(true);
-
+  
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
@@ -42,6 +45,8 @@ function App() {
       <Main/>
       <Davlatlar/>
       <KompaniyaH/>
+      <Roixatdan/>
+      <Footer/>
     </div>
   );
 }
